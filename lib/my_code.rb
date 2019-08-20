@@ -16,7 +16,7 @@ end
      sum = sv
      i = 0
     else 
-      sum = source_array[0]
+      sum = array[0]
       i = 1 
     end
     
