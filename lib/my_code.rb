@@ -10,13 +10,13 @@
 end
 
  
- def reduce(source_array, starting_point = nil)
+ def reduce(source_array, starting_point = 0)
   
   for i in (source_array)
-    answer =  yield(i, starting_point)
+    sum =  yield(starting_point, i)
   end
   
-  return answer
+  return sum
  end
  
 
