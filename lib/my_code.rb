@@ -15,7 +15,11 @@ end
    if starting_point
      sum = starting_point
      i = 0
-    else   
+    else 
+      sum = source_array[0]
+      i = 1 
+    end
+    
   for i in (source_array)
     sum =  yield(starting_point, i)
   end
