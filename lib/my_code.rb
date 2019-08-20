@@ -17,7 +17,7 @@ end
   #   i += 1
   # end
   for i in (source_array)
-  answer = yield(array[i], starting_value)
+  answer = yield(source_array[i], starting_value)
   end
   return answer
  end
