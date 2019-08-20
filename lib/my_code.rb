@@ -10,13 +10,13 @@
 end
 
  
- def reduce(source_array, starting_value = 0)
+ def reduce(source_array, starting_point = 0)
   # i = 0
   # while i < array.length do
   #   yield(array[i])
   #   i += 1
   # end
-  for i in (array)
+  for i in (source_array)
   answer = yield(array[i], starting_value)
   end
   return answer
