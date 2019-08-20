@@ -24,19 +24,19 @@ end
   new_value = starting_point
   
   for i in (source_array)
-    yield(source_array, starting_point)
+   answer =  yield(source_array, starting_point)
   end
   
-  return new_value
+  return answer
  end
  
 
-def reduce_to_any_true(source_array)
-  for i in (source_array)
+# def reduce_to_any_true(source_array)
+#   for i in (source_array)
   
-    if i == true
-      return true
-    end
-  end
-return false
-end
+#     if i == true
+#       return true
+#     end
+#   end
+# return false
+# end
