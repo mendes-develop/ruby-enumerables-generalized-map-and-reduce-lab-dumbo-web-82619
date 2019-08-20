@@ -14,6 +14,10 @@ end
   
   # for i in (source_array)
   # answer =  yield(i, starting_point)
+  i = 0
+  while i < source_array.length do
+    yield(source_array, starting_point)
+    i += 1
   end
   
   return answer
