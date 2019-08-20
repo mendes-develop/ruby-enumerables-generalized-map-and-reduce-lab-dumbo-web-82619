@@ -16,10 +16,10 @@ end
   #   yield(array[i])
   #   i += 1
   # end
-  for i in (source_array)
-  answer = yield(source_array[i], starting_point)
-  end
-  return answer
+  # for i in (source_array)
+  # answer = yield(source_array[i], starting_point)
+  # end
+  # return answer
  end
  
 
