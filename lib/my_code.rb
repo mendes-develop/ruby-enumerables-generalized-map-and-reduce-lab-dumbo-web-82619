@@ -24,7 +24,7 @@ end
   new_value = starting_point
   
   for i in (source_array)
-   answer =  yield(starting_point, i)
+   answer =  yield(i, starting_point)
   end
   
   return answer
