@@ -16,6 +16,10 @@ end
   #   yield(array[i])
   #   i += 1
   # end
+  for i in (array)
+  answer = yield(array[i], starting_value)
+  end
+  return answer
  end
  
 
