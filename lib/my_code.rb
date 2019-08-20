@@ -27,6 +27,10 @@ end
    answer =  yield(i, starting_point)
   end
   
+  if answer
+    return false
+  end
+  
   return answer
  end
  
