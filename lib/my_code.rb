@@ -11,24 +11,9 @@ end
 
  
  def reduce(source_array, starting_point = 0)
-  # i = 0
-  # while i < array.length do
-  #   yield(array[i])
-  #   i += 1
-  # end
-  # for i in (source_array)
-  # answer = yield(source_array[i], starting_point)
-  # end
-  # return answer
-  
-  new_value = starting_point
   
   for i in (source_array)
    answer =  yield(i, starting_point)
-  end
-  
-  if answer != true
-    return false
   end
   
   return answer
