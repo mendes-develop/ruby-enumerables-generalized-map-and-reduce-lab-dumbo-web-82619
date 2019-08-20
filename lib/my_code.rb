@@ -13,7 +13,8 @@ end
  def reduce(source_array, starting_point = 0)
   
   for i in (source_array)
-    answer =  yield(i, starting_point)
+    soma += i
+    answer =  yield(soma, starting_point)
   end
   
   return answer
