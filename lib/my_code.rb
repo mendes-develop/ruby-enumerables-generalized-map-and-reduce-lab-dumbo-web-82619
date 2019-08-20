@@ -22,6 +22,7 @@ end
     
   while i < source_array.length
     sum =  yield(starting_point, i)
+    i += 1
   end
   
   return sum
