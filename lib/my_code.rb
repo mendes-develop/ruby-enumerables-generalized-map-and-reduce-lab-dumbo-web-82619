@@ -9,7 +9,6 @@
   return new
 end
 
-map([1,2,3]) {|n| n * -1}
  
  def reduce(array, starting_value = 0)
   i = 0
