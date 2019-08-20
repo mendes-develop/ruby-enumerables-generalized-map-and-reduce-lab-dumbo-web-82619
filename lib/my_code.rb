@@ -31,3 +31,12 @@ end
  end
  
 
+def reduce_to_any_true(source_array)
+  for i in (source_array)
+  
+    if i == true
+      return true
+    end
+  end
+return false
+end
