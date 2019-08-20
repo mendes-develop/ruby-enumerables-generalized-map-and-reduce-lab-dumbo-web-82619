@@ -21,7 +21,7 @@ end
     end
     
   while i < array.length
-    sum =  yield(starting_point, i)
+    sum =  yield(sum, array[i])
     i += 1
   end
   
