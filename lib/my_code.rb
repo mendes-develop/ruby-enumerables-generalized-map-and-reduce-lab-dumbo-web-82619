@@ -20,6 +20,13 @@ end
   # answer = yield(source_array[i], starting_point)
   # end
   # return answer
+  
+  new_value = starting_point
+  
+  for i in (source_array)
+  yield(source_array)
+  end
+  return new_value
  end
  
 
