@@ -20,7 +20,7 @@ end
       i = 1 
     end
     
-  for i in (source_array)
+  while i < source_array.length
     sum =  yield(starting_point, i)
   end
   
